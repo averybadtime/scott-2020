@@ -10,9 +10,7 @@ export const fadeIn = (_) => ({
   delay,
   easing: sineInOut,
   css: (t) =>
-    `transform-origin: top center; opacity: ${t}; position: absolute; filter: blur(${
-      (1 - t) * 10
-    }px);`,
+    `transform-origin: top center; opacity: ${t}; position: absolute;`,
 });
 
 export const fadeOut = (_) => ({
@@ -23,6 +21,5 @@ export const fadeOut = (_) => ({
     `opacity: ${t}; 
 		transform-origin: top center;
 		position: absolute; 
-		filter: blur(${(1 - t) * 10}px); 
 		transform: translate3d(0, ${(1 - t) * 100}px, 0) scaleY(${1 - t + 1});`,
 });
