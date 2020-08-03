@@ -48,7 +48,7 @@
 </style>
 
 <div in:fadeIn out:fadeOut>
-  <p>Here is some stuff I've create or been a part of.</p>
+  <p>Here is some stuff I've created or been a part of.</p>
 
   <ul>
     {#each projects as { title, desc, link }}
