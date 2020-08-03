@@ -34,23 +34,6 @@
 </script>
 
 <style>
-  h1:after {
-    content: "";
-    position: absolute;
-    height: 120%;
-    width: 240%;
-    background: white;
-    left: 0;
-    z-index: -1;
-    transform: skew(7deg, -2deg);
-  }
-  h1 {
-    position: relative;
-    color: black;
-    width: auto;
-    display: inline-block;
-    margin-bottom: 6rem;
-  }
   h3 {
     font-size: 2rem;
   }
@@ -65,7 +48,6 @@
 </style>
 
 <div in:fadeIn out:fadeOut>
-  <h1>Projects</h1>
   <p>Here is some stuff I've create or been a part of.</p>
 
   <ul>

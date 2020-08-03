@@ -19,17 +19,17 @@
   <p>
     I own and make video tutorials teaching web development for
     <a target="_blank" href="http://www.youtube.com/user/LevelUpTuts/featured">
-      Level Up Tutorials
+      Level Up Tutorials,
     </a>
-    , releasing a new premium series every month.
+    releasing a new premium series every month.
   </p>
   <p>
     I also co-host
     <a target="_blank" href="http://syntax.fm">Syntax.fm</a>
     with
-    <a target="_blank" href="https://wesbos.com/">Wes Bos</a>
-    . Syntax is a popular, light hearted web development podcast that teaches
-    full stack topics while staying fun.
+    <a target="_blank" href="https://wesbos.com/">Wes Bos.</a>
+    Syntax is a popular, light hearted web development podcast that teaches full
+    stack topics while staying fun.
   </p>
   <p>
     I enjoy{' '}

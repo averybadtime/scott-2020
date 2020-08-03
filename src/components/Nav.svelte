@@ -18,6 +18,7 @@
   [aria-current] {
     position: relative;
     display: inline-block;
+    opacity: 0.5;
   }
 
   [aria-current]::after {
@@ -25,7 +26,7 @@
     content: "";
     width: calc(100% - 1em);
     height: 2px;
-    background-color: blue;
+    background-color: var(--blue);
     display: block;
     bottom: -1px;
   }
@@ -69,11 +70,6 @@
     <li>
       <a aria-current={segment === 'uses' ? 'page' : undefined} href="uses">
         uses
-      </a>
-    </li>
-    <li>
-      <a aria-current={segment === 'notion' ? 'page' : undefined} href="notion">
-        notion
       </a>
     </li>
   </ul>

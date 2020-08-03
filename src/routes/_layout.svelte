@@ -18,6 +18,10 @@
     line-height: 1.5;
   }
 
+  :global(p > a) {
+    background: var(--blue);
+  }
+
   @font-face {
     font-family: "MonoLisa";
     src: url("/MonoLisa-Regular.otf");

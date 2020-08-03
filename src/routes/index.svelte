@@ -28,6 +28,14 @@
 
 <div in:fadeIn out:fadeOut>
   <h1>Scott Tolinski</h1>
+  <iframe
+    width="560"
+    height="315"
+    src="https://www.youtube.com/embed/Q9eh2iJsjxE"
+    frameborder="0"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope;
+    picture-in-picture"
+    allowfullscreen />
   <h3>
     Web Developer | Creator of Level Up Tutorials | Co-host of Syntax.fm |
     Father of 2 | Bboy | Robotops Crew | Youtuber | Tea Drinker | Tutorial Maker

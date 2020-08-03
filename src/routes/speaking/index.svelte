@@ -1,8 +1,27 @@
-<script>
-  import { fadeIn, fadeOut } from "../../components/Fade";
+<script context="module">
+  import { useData } from "../../clientUtilities";
+
+  export async function preload() {
+    const speaking = await useData(this, "speaking");
+    return { speaking };
+  }
 </script>
 
-<div>
+<script>
+  import { fadeIn, fadeOut } from "../../components/Fade";
+
+  export let speaking;
+</script>
+
+<div in:fadeIn out:fadeOut>
+  {#each speaking as talk}
+    <h1>{talk.title}</h1>
+
+    <div class="content">
+      {@html talk.html}
+    </div>
+  {/each}
+
   <iframe
     title="2fast"
     width="560"
@@ -28,6 +47,24 @@
     width="560"
     height="315"
     src="https://www.youtube.com/embed/keynw6xAsqo"
+    frameborder="0"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope;
+    picture-in-picture"
+    allowfullscreen />
+
+  <iframe
+    width="560"
+    height="315"
+    src="https://www.youtube.com/embed/5o6bP9sX248"
+    frameborder="0"
+    allow="accelerometer; autoplay; encrypted-media; gyroscope;
+    picture-in-picture"
+    allowfullscreen />
+
+  <iframe
+    width="560"
+    height="315"
+    src="https://www.youtube.com/embed/2sKfhEi72jg"
     frameborder="0"
     allow="accelerometer; autoplay; encrypted-media; gyroscope;
     picture-in-picture"
